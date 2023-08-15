@@ -38,7 +38,8 @@ RESET:
 	vector<string> modules = {
 		"simple wires",
 		"button",
-		"password"
+		"password",
+		"symbols"
 	};
 
 CONTINUE:
@@ -65,6 +66,9 @@ CONTINUE:
 			break;
 		case 3:
 			password();
+			break;
+		case 4:
+			symbols();
 			break;
 	}
 

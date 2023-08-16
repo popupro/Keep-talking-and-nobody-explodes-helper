@@ -1,9 +1,3 @@
 ﻿  Keep talking and nobody explodes helper.cpp
-D:\Programming\Visual studio projects\Keep talking and nobody explodes helper\Keep talking and nobody explodes helper\Keep talking and nobody explodes helper.cpp(46,19): warning C4018: '<': signed/unsigned mismatch
-  Password.cpp
-D:\Programming\Visual studio projects\Keep talking and nobody explodes helper\Keep talking and nobody explodes helper\Password.cpp(23,19): warning C4018: '<': signed/unsigned mismatch
-D:\Programming\Visual studio projects\Keep talking and nobody explodes helper\Keep talking and nobody explodes helper\Password.cpp(29,19): warning C4018: '<': signed/unsigned mismatch
-D:\Programming\Visual studio projects\Keep talking and nobody explodes helper\Keep talking and nobody explodes helper\Password.cpp(32,20): warning C4018: '<': signed/unsigned mismatch
-  Symbols.cpp
-  Generating Code...
+D:\Programming\Visual studio projects\Keep talking and nobody explodes helper\Keep talking and nobody explodes helper\Keep talking and nobody explodes helper.cpp(47,19): warning C4018: '<': signed/unsigned mismatch
   Keep talking and nobody explodes helper.vcxproj -> D:\Programming\Visual studio projects\Keep talking and nobody explodes helper\Debug\Keep talking and nobody explodes helper.exe

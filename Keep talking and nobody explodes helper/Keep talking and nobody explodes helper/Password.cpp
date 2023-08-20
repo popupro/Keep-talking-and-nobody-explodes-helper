@@ -38,9 +38,6 @@ void password()
 		}
 
 		if(foundAll)
-		{
 			cout << "Password is: " << passwords[i] << "\n\n";
-			return;
-		}
 	}
 }

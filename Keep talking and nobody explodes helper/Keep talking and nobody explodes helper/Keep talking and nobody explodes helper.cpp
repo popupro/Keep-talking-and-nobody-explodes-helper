@@ -41,6 +41,7 @@ RESET:
 		"symbols",
 		"simon says",
 		"word game",
+		"memory",
 		"password"
 	};
 
@@ -76,7 +77,11 @@ CONTINUE:
 			wordGame();
 			break;
 		case 6:
+			memory();
+			break;
+		case 7:
 			password();
+			break;
 	}
 
 	cout << '\n' << "Next module type 'Y', reset type 'R', quit type anything else: ";

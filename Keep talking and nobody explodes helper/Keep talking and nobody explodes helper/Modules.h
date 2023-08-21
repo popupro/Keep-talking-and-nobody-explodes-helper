@@ -10,3 +10,4 @@ void password();
 void symbols();
 void simonSays(const string& serial);
 void wordGame();
+void memory();

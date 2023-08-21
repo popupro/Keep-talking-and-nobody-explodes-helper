@@ -9,3 +9,4 @@ int simpleWires(const string& serial);
 void password();
 void symbols();
 void simonSays(const string& serial);
+void wordGame();

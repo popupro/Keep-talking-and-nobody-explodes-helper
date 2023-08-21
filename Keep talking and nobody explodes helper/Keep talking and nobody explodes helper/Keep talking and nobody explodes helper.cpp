@@ -40,6 +40,7 @@ RESET:
 		"button",
 		"symbols",
 		"simon says",
+		"word game",
 		"password"
 	};
 
@@ -72,6 +73,9 @@ CONTINUE:
 			simonSays(serial);
 			break;
 		case 5:
+			wordGame();
+			break;
+		case 6:
 			password();
 	}
 

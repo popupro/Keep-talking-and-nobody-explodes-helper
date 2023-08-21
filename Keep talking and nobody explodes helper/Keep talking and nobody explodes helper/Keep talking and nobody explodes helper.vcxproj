@@ -143,8 +143,10 @@
     <ClCompile Include="Keep talking and nobody explodes helper.cpp" />
     <ClCompile Include="Password.cpp" />
     <ClCompile Include="Simple wires.cpp" />
+    <ClCompile Include="SimonSays.cpp" />
     <ClCompile Include="Symbols.cpp" />
     <ClCompile Include="UppercaseString.cpp" />
+    <ClCompile Include="WordGame.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Modules.h" />

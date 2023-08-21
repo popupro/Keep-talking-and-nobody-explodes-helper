@@ -1,3 +1,4 @@
-﻿  Keep talking and nobody explodes helper.cpp
-D:\Programming\Visual studio projects\Keep talking and nobody explodes helper\Keep talking and nobody explodes helper\Keep talking and nobody explodes helper.cpp(47,19): warning C4018: '<': signed/unsigned mismatch
+﻿  SimonSays.cpp
+D:\Programming\Visual studio projects\Keep talking and nobody explodes helper\Keep talking and nobody explodes helper\SimonSays.cpp(113,19): warning C4018: '<': signed/unsigned mismatch
+D:\Programming\Visual studio projects\Keep talking and nobody explodes helper\Keep talking and nobody explodes helper\SimonSays.cpp(132,19): warning C4018: '<': signed/unsigned mismatch
   Keep talking and nobody explodes helper.vcxproj -> D:\Programming\Visual studio projects\Keep talking and nobody explodes helper\Debug\Keep talking and nobody explodes helper.exe

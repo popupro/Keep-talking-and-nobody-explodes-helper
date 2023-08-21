@@ -8,6 +8,8 @@ using namespace std;
 
 void password()
 {
+	system("CLS");
+
 	vector<string> passwords = {
 		"ABOUT", "AFTER", "AGAIN", "BELOW", "COULD",
 		"EVERY", "FIRST", "FOUND", "GREAT", "HOUSE",
@@ -38,6 +40,8 @@ void password()
 		}
 
 		if(foundAll)
+		{
 			cout << "Password is: " << passwords[i] << "\n\n";
+		}
 	}
 }

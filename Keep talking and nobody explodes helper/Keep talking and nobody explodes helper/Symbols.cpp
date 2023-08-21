@@ -67,6 +67,8 @@ string translate(const string& nickname)
 
 void symbols()
 {
+	system("CLS");
+
 	cout << "OD - O with dongle\n";
 	cout << "PY - Pyramid\n";
 	cout << "L - Lambda\n";

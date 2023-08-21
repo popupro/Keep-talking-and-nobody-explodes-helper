@@ -38,8 +38,9 @@ RESET:
 	vector<string> modules = {
 		"simple wires",
 		"button",
-		"password",
-		"symbols"
+		"symbols",
+		"simon says",
+		"password"
 	};
 
 CONTINUE:
@@ -65,11 +66,13 @@ CONTINUE:
 			button(bateries, indicators);
 			break;
 		case 3:
-			password();
-			break;
-		case 4:
 			symbols();
 			break;
+		case 4:
+			simonSays(serial);
+			break;
+		case 5:
+			password();
 	}
 
 	cout << '\n' << "Next module type 'Y', reset type 'R', quit type anything else: ";

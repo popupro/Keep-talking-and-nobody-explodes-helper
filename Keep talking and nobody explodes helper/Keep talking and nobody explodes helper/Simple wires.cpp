@@ -11,6 +11,8 @@ int simpleWires(const string& serial)
 {
 REPEAT:
 
+	system("CLS");
+
 	cout << "R - red\nY - yellow\nE - blue\nB - black\nW - white\n\n";
 
 	cout << "Enter wires: ";

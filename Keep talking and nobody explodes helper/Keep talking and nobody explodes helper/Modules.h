@@ -8,3 +8,4 @@ void button(int bateries, const vector<string>& indicators);
 int simpleWires(const string& serial);
 void password();
 void symbols();
+void simonSays(const string& serial);

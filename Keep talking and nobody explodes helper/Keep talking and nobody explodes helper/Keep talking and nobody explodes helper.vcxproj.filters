@@ -33,6 +33,12 @@
     <ClCompile Include="Password.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="WordGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimonSays.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Modules.h">

@@ -14,8 +14,8 @@ char colorConvert(char color, int strikes, bool vowel)
 			switch(color)
 			{
 				case 'R':
-					return 'E';
-				case 'E':
+					return 'B';
+				case 'B':
 					return 'R';
 				case 'G':
 					return 'Y';
@@ -29,10 +29,10 @@ char colorConvert(char color, int strikes, bool vowel)
 			{
 				case 'R':
 					return 'Y';
-				case 'E':
+				case 'B':
 					return 'G';
 				case 'G':
-					return 'E';
+					return 'B';
 				case 'Y':
 					return 'R';
 			}
@@ -43,12 +43,12 @@ char colorConvert(char color, int strikes, bool vowel)
 			{
 				case 'R':
 					return 'G';
-				case 'E':
+				case 'B':
 					return 'R';
 				case 'G':
 					return 'Y';
 				case 'Y':
-					return 'E';
+					return 'B';
 			}
 		}
 	}
@@ -58,8 +58,8 @@ char colorConvert(char color, int strikes, bool vowel)
 		switch(color)
 		{
 			case 'R':
-				return 'E';
-			case 'E':
+				return 'B';
+			case 'B':
 				return 'Y';
 			case 'G':
 				return 'G';
@@ -73,8 +73,8 @@ char colorConvert(char color, int strikes, bool vowel)
 		{
 			case 'R':
 				return 'R';
-			case 'E':
-				return 'E';
+			case 'B':
+				return 'B';
 			case 'G':
 				return 'Y';
 			case 'Y':
@@ -87,10 +87,10 @@ char colorConvert(char color, int strikes, bool vowel)
 		{
 			case 'R':
 				return 'Y';
-			case 'E':
+			case 'B':
 				return 'G';
 			case 'G':
-				return 'E';
+				return 'B';
 			case 'Y':
 				return 'R';
 		}
@@ -107,7 +107,7 @@ void simonSays(const string& serial)
 
 	system("CLS");
 
-	cout << "R - red\nE - blue\nG - green\nY - yellow\n\n";
+	cout << "R - red\nB - blue\nG - green\nY - yellow\n\n";
 
 	bool vowel = false;
 	for(int i = 0; i < serial.size(); i++)

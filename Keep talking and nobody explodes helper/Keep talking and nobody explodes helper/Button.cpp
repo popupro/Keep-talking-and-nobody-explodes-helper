@@ -14,7 +14,7 @@ void releaseSection()
 
 void button(int bateries, const vector<string>& indicators)
 {
-	cout << "R - red\nY - yellow\nE - blue\nB - black\nW - white\n\n";
+	cout << "R - red\nY - yellow\nB - blue\nK - black\nW - white\n\n";
 
 	cout << "Input color and text: ";
 	string color;
@@ -23,7 +23,7 @@ void button(int bateries, const vector<string>& indicators)
 	uppercaseString(text);
 	uppercaseString(color);
 
-	if(color == "E" && text == "ABORT")
+	if(color == "B" && text == "ABORT")
 	{
 		releaseSection();
 		return;

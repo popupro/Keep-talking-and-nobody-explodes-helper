@@ -140,8 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Button.cpp" />
+    <ClCompile Include="Complex wires.cpp" />
     <ClCompile Include="Keep talking and nobody explodes helper.cpp" />
     <ClCompile Include="Memory.cpp" />
+    <ClCompile Include="Morse code.cpp" />
     <ClCompile Include="Password.cpp" />
     <ClCompile Include="Simple wires.cpp" />
     <ClCompile Include="SimonSays.cpp" />

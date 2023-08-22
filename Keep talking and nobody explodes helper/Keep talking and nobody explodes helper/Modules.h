@@ -11,3 +11,5 @@ void symbols();
 void simonSays(const string& serial);
 void wordGame();
 void memory();
+void complexWires(const string& serial, bool parallel, int batteries);
+void morseCode();

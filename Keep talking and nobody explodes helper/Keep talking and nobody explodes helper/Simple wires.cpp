@@ -13,7 +13,7 @@ REPEAT:
 
 	system("CLS");
 
-	cout << "R - red\nY - yellow\nE - blue\nB - black\nW - white\n\n";
+	cout << "R - red\nY - yellow\nB - blue\nK - black\nW - white\n\n";
 
 	cout << "Enter wires: ";
 	string wires;
@@ -42,7 +42,7 @@ REPEAT:
 			return 2;
 		if(wires[2] == 'W')
 			return 3;
-		if(countChar(wires, 'E') == 2 && wires[2] != 'E')
+		if(countChar(wires, 'B') == 2 && wires[2] != 'B')
 			return 2;
 		return 3;
 	}
@@ -58,7 +58,7 @@ REPEAT:
 		}
 		if(countChar(wires, 'R') == 0 && wires[3] == 'Y')
 			return 1;
-		if(countChar(wires, 'E') == 1)
+		if(countChar(wires, 'B') == 1)
 			return 1;
 		if(countChar(wires, 'Y') >= 2)
 			return 4;
@@ -66,11 +66,11 @@ REPEAT:
 	}
 	if(wires.size() == 5)
 	{
-		if(wires[4] == 'B' && serialOdd)
+		if(wires[4] == 'K' && serialOdd)
 			return 4;
 		if(countChar(wires, 'R') == 1 && countChar(wires, 'Y') >= 2)
 			return 1;
-		if(countChar(wires, 'B') == 0) //wyrbw
+		if(countChar(wires, 'K') == 0) //wyrbw
 			return 2;
 		return 1;
 	}

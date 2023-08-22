@@ -35,6 +35,10 @@ RESET:
 	int bateries;
 	cin >> bateries;
 
+	cout << "Input parallel port: ";
+	bool parallel;
+	cin >> parallel;
+
 	vector<string> modules = {
 		"simple wires",
 		"button",
@@ -42,6 +46,8 @@ RESET:
 		"simon says",
 		"word game",
 		"memory",
+		"morse code",
+		"complex wires",
 		"password"
 	};
 
@@ -80,6 +86,12 @@ CONTINUE:
 			memory();
 			break;
 		case 7:
+			morseCode();
+			break;
+		case 8:
+			complexWires(serial, parallel, bateries);
+			break;
+		case 9:
 			password();
 			break;
 	}

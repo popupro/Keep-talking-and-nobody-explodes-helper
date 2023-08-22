@@ -48,6 +48,8 @@ RESET:
 		"memory",
 		"morse code",
 		"complex wires",
+		"wire sequence",
+		"maze",
 		"password"
 	};
 
@@ -92,6 +94,12 @@ CONTINUE:
 			complexWires(serial, parallel, bateries);
 			break;
 		case 9:
+			wireSequence();
+			break;
+		case 10:
+			maze();
+			break;
+		case 11:
 			password();
 			break;
 	}

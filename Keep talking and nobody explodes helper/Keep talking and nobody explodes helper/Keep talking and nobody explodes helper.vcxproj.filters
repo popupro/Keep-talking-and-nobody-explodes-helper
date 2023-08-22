@@ -48,6 +48,12 @@
     <ClCompile Include="Morse code.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Wire sequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Maze.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Modules.h">

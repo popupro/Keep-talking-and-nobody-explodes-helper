@@ -1,11 +1,4 @@
-﻿  Keep talking and nobody explodes helper.cpp
-D:\Programming\Visual studio projects\Keep talking and nobody explodes helper\Keep talking and nobody explodes helper\Keep talking and nobody explodes helper.cpp(56,19): warning C4018: '<': signed/unsigned mismatch
-  Morse code.cpp
-D:\Programming\Visual studio projects\Keep talking and nobody explodes helper\Keep talking and nobody explodes helper\Morse code.cpp(18,2): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=float
-          ]
-D:\Programming\Visual studio projects\Keep talking and nobody explodes helper\Keep talking and nobody explodes helper\Morse code.cpp(39,19): warning C4018: '<': signed/unsigned mismatch
-  Generating Code...
+﻿  Maze.cpp
+D:\Programming\Visual studio projects\Keep talking and nobody explodes helper\Keep talking and nobody explodes helper\Maze.cpp(16,19): warning C4018: '<': signed/unsigned mismatch
+D:\Programming\Visual studio projects\Keep talking and nobody explodes helper\Keep talking and nobody explodes helper\Maze.cpp(250,19): warning C4018: '<': signed/unsigned mismatch
   Keep talking and nobody explodes helper.vcxproj -> D:\Programming\Visual studio projects\Keep talking and nobody explodes helper\Debug\Keep talking and nobody explodes helper.exe

@@ -7,6 +7,8 @@ using namespace std;
 
 void morseCode()
 {
+	system("CLS");
+
 	vector<string> words{
 		"SHELL", "HALLS", "SLICK", "TRICK", "BOXES", "LEAKS", "STROBE", "BISTRO", 
 		"FLICK", "BOMBS", "BREAK", "BRICK", "STEAK", "STING", "VECTOR", "BEATS"

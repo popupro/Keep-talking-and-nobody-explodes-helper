@@ -13,3 +13,5 @@ void wordGame();
 void memory();
 void complexWires(const string& serial, bool parallel, int batteries);
 void morseCode();
+void wireSequence();
+void maze();

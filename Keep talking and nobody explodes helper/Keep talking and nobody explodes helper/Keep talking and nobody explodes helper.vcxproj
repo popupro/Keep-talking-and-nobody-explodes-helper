@@ -142,6 +142,7 @@
     <ClCompile Include="Button.cpp" />
     <ClCompile Include="Complex wires.cpp" />
     <ClCompile Include="Keep talking and nobody explodes helper.cpp" />
+    <ClCompile Include="Maze.cpp" />
     <ClCompile Include="Memory.cpp" />
     <ClCompile Include="Morse code.cpp" />
     <ClCompile Include="Password.cpp" />
@@ -149,6 +150,7 @@
     <ClCompile Include="SimonSays.cpp" />
     <ClCompile Include="Symbols.cpp" />
     <ClCompile Include="UppercaseString.cpp" />
+    <ClCompile Include="Wire sequence.cpp" />
     <ClCompile Include="WordGame.cpp" />
   </ItemGroup>
   <ItemGroup>

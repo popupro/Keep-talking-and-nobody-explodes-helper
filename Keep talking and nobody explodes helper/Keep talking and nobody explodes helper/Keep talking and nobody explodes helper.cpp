@@ -50,7 +50,9 @@ RESET:
 		"complex wires",
 		"wire sequence",
 		"maze",
-		"password"
+		"password",
+		"new bomb",
+		"quit"
 	};
 
 CONTINUE:
@@ -102,18 +104,16 @@ CONTINUE:
 		case 11:
 			password();
 			break;
+		case 12:
+			goto RESET;
+			break;
+		case 13:
+			goto EXIT;
+			break;
 	}
+	goto CONTINUE;
 
-	cout << '\n' << "Next module type 'Y', reset type 'R', quit type anything else: ";
-	string next;
-	cin >> next;
-
-	system("CLS");
-
-	if(next == "y" || next == "Y")
-		goto CONTINUE;
-	else if(next == "r" || next == "R")
-		goto RESET;
+EXIT:
 
 	return 0;
 }

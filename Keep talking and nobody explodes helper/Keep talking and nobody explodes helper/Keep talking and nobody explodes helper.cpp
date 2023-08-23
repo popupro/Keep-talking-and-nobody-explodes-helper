@@ -17,7 +17,7 @@ RESET:
 	vector<string> indicators;
 
 	{
-		cout << "Input indicators, end with 0: ";
+		cout << "Input lit indicators, end with 0: ";
 
 		string indicator;
 		do

@@ -1,0 +1,5 @@
+All the code files are in the "Keep talking and nobody explodes helper" folder
+
+To use the tool just go to the .exe file in KTaNE helper folder
+
+Everything is coded in visual studio C++, use the .sln in the same folder as the read me if you want to change the code yourself
